@@ -11,7 +11,7 @@ spec:
         app: kubia
     spec:
       containers:
-      - image: registry.ty.com/ty/kubia:v1
+      - image: luksa/kubia:v1
         name: nodejs
   selector:
     matchLabels:
